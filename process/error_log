@@ -1,0 +1,406 @@
+[25-Jan-2020 16:16:34 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/fedebypc/fastlunch.fedebyp.com/library/consulSQL.php on line 6
+[25-Jan-2020 16:16:34 UTC] PHP Stack trace:
+[25-Jan-2020 16:16:34 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/login.php:0
+[25-Jan-2020 16:16:34 UTC] PHP   2. ejecutarSQL::consultar() /home/fedebypc/fastlunch.fedebyp.com/process/login.php:10
+[25-Jan-2020 16:16:34 UTC] PHP   3. ejecutarSQL::conectar() /home/fedebypc/fastlunch.fedebyp.com/library/consulSQL.php:19
+[25-Jan-2020 16:16:34 UTC] PHP   4. mysqli_connect() /home/fedebypc/fastlunch.fedebyp.com/library/consulSQL.php:6
+[26-Jan-2020 23:22:19 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/fedebypc/fastlunch.fedebyp.com/library/consulSQL.php on line 20
+[26-Jan-2020 23:22:19 UTC] PHP Stack trace:
+[26-Jan-2020 23:22:19 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php:0
+[26-Jan-2020 23:22:19 UTC] PHP   2. consultasSQL::InsertSQL() /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php:38
+[26-Jan-2020 23:22:19 UTC] PHP   3. ejecutarSQL::consultar() /home/fedebypc/fastlunch.fedebyp.com/library/consulSQL.php:28
+[26-Jan-2020 23:22:19 UTC] PHP   4. mysqli_error() /home/fedebypc/fastlunch.fedebyp.com/library/consulSQL.php:20
+[26-Jan-2020 23:22:48 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/fedebypc/fastlunch.fedebyp.com/library/consulSQL.php on line 20
+[26-Jan-2020 23:22:48 UTC] PHP Stack trace:
+[26-Jan-2020 23:22:48 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php:0
+[26-Jan-2020 23:22:48 UTC] PHP   2. consultasSQL::InsertSQL() /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php:38
+[26-Jan-2020 23:22:48 UTC] PHP   3. ejecutarSQL::consultar() /home/fedebypc/fastlunch.fedebyp.com/library/consulSQL.php:28
+[26-Jan-2020 23:22:48 UTC] PHP   4. mysqli_error() /home/fedebypc/fastlunch.fedebyp.com/library/consulSQL.php:20
+[26-Jan-2020 23:24:00 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/fedebypc/fastlunch.fedebyp.com/library/consulSQL.php on line 20
+[26-Jan-2020 23:24:00 UTC] PHP Stack trace:
+[26-Jan-2020 23:24:00 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php:0
+[26-Jan-2020 23:24:00 UTC] PHP   2. consultasSQL::InsertSQL() /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php:38
+[26-Jan-2020 23:24:00 UTC] PHP   3. ejecutarSQL::consultar() /home/fedebypc/fastlunch.fedebyp.com/library/consulSQL.php:28
+[26-Jan-2020 23:24:00 UTC] PHP   4. mysqli_error() /home/fedebypc/fastlunch.fedebyp.com/library/consulSQL.php:20
+[26-Jan-2020 23:26:01 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/fedebypc/fastlunch.fedebyp.com/library/consulSQL.php on line 20
+[26-Jan-2020 23:26:01 UTC] PHP Stack trace:
+[26-Jan-2020 23:26:01 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php:0
+[26-Jan-2020 23:26:01 UTC] PHP   2. consultasSQL::InsertSQL() /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php:38
+[26-Jan-2020 23:26:01 UTC] PHP   3. ejecutarSQL::consultar() /home/fedebypc/fastlunch.fedebyp.com/library/consulSQL.php:28
+[26-Jan-2020 23:26:01 UTC] PHP   4. mysqli_error() /home/fedebypc/fastlunch.fedebyp.com/library/consulSQL.php:20
+[28-Jan-2020 03:42:57 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php on line 20
+[28-Jan-2020 03:42:57 UTC] PHP Stack trace:
+[28-Jan-2020 03:42:57 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php:0
+[28-Jan-2020 03:42:57 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php:20
+[28-Jan-2020 04:04:35 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 19
+[28-Jan-2020 04:04:35 UTC] PHP Stack trace:
+[28-Jan-2020 04:04:35 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:04:35 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:19
+[28-Jan-2020 04:04:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 22
+[28-Jan-2020 04:04:35 UTC] PHP Stack trace:
+[28-Jan-2020 04:04:35 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:04:35 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:22
+[28-Jan-2020 04:04:42 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 19
+[28-Jan-2020 04:04:42 UTC] PHP Stack trace:
+[28-Jan-2020 04:04:42 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:04:42 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:19
+[28-Jan-2020 04:04:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 22
+[28-Jan-2020 04:04:42 UTC] PHP Stack trace:
+[28-Jan-2020 04:04:42 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:04:42 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:22
+[28-Jan-2020 04:04:43 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 19
+[28-Jan-2020 04:04:43 UTC] PHP Stack trace:
+[28-Jan-2020 04:04:43 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:04:43 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:19
+[28-Jan-2020 04:04:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 22
+[28-Jan-2020 04:04:43 UTC] PHP Stack trace:
+[28-Jan-2020 04:04:43 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:04:43 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:22
+[28-Jan-2020 04:04:44 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 19
+[28-Jan-2020 04:04:44 UTC] PHP Stack trace:
+[28-Jan-2020 04:04:44 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:04:44 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:19
+[28-Jan-2020 04:04:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 22
+[28-Jan-2020 04:04:44 UTC] PHP Stack trace:
+[28-Jan-2020 04:04:44 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:04:44 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:22
+[28-Jan-2020 04:06:25 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/login.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/login.php on line 4
+[28-Jan-2020 04:06:25 UTC] PHP Stack trace:
+[28-Jan-2020 04:06:25 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/login.php:0
+[28-Jan-2020 04:06:25 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/login.php:4
+[28-Jan-2020 04:06:44 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 3
+[28-Jan-2020 04:06:44 UTC] PHP Stack trace:
+[28-Jan-2020 04:06:44 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:06:44 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:3
+[28-Jan-2020 04:06:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 6
+[28-Jan-2020 04:06:44 UTC] PHP Stack trace:
+[28-Jan-2020 04:06:44 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:06:44 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:6
+[28-Jan-2020 04:06:44 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 3
+[28-Jan-2020 04:06:44 UTC] PHP Stack trace:
+[28-Jan-2020 04:06:44 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:06:44 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:3
+[28-Jan-2020 04:06:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 6
+[28-Jan-2020 04:06:44 UTC] PHP Stack trace:
+[28-Jan-2020 04:06:44 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:06:44 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:6
+[28-Jan-2020 04:06:45 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 3
+[28-Jan-2020 04:06:45 UTC] PHP Stack trace:
+[28-Jan-2020 04:06:45 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:06:45 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:3
+[28-Jan-2020 04:06:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 6
+[28-Jan-2020 04:06:45 UTC] PHP Stack trace:
+[28-Jan-2020 04:06:45 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:06:45 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:6
+[28-Jan-2020 04:06:46 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 3
+[28-Jan-2020 04:06:46 UTC] PHP Stack trace:
+[28-Jan-2020 04:06:46 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:06:46 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:3
+[28-Jan-2020 04:06:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 6
+[28-Jan-2020 04:06:46 UTC] PHP Stack trace:
+[28-Jan-2020 04:06:46 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:06:46 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:6
+[28-Jan-2020 04:07:14 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/login.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/login.php on line 4
+[28-Jan-2020 04:07:14 UTC] PHP Stack trace:
+[28-Jan-2020 04:07:14 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/login.php:0
+[28-Jan-2020 04:07:14 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/login.php:4
+[28-Jan-2020 04:07:24 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 3
+[28-Jan-2020 04:07:24 UTC] PHP Stack trace:
+[28-Jan-2020 04:07:24 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:07:24 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:3
+[28-Jan-2020 04:07:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 6
+[28-Jan-2020 04:07:24 UTC] PHP Stack trace:
+[28-Jan-2020 04:07:24 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:07:24 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:6
+[28-Jan-2020 04:07:25 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 3
+[28-Jan-2020 04:07:25 UTC] PHP Stack trace:
+[28-Jan-2020 04:07:25 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:07:25 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:3
+[28-Jan-2020 04:07:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 6
+[28-Jan-2020 04:07:25 UTC] PHP Stack trace:
+[28-Jan-2020 04:07:25 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:07:25 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:6
+[28-Jan-2020 04:07:25 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 3
+[28-Jan-2020 04:07:25 UTC] PHP Stack trace:
+[28-Jan-2020 04:07:25 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:07:25 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:3
+[28-Jan-2020 04:07:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 6
+[28-Jan-2020 04:07:25 UTC] PHP Stack trace:
+[28-Jan-2020 04:07:25 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:07:25 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:6
+[28-Jan-2020 04:07:26 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 3
+[28-Jan-2020 04:07:26 UTC] PHP Stack trace:
+[28-Jan-2020 04:07:26 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:07:26 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:3
+[28-Jan-2020 04:07:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 6
+[28-Jan-2020 04:07:26 UTC] PHP Stack trace:
+[28-Jan-2020 04:07:26 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:07:26 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:6
+[28-Jan-2020 04:07:26 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 3
+[28-Jan-2020 04:07:26 UTC] PHP Stack trace:
+[28-Jan-2020 04:07:26 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:07:26 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:3
+[28-Jan-2020 04:07:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 6
+[28-Jan-2020 04:07:26 UTC] PHP Stack trace:
+[28-Jan-2020 04:07:26 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:07:26 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:6
+[28-Jan-2020 04:07:26 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 3
+[28-Jan-2020 04:07:26 UTC] PHP Stack trace:
+[28-Jan-2020 04:07:26 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:07:26 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:3
+[28-Jan-2020 04:07:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 6
+[28-Jan-2020 04:07:26 UTC] PHP Stack trace:
+[28-Jan-2020 04:07:26 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:07:26 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:6
+[28-Jan-2020 04:07:26 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 3
+[28-Jan-2020 04:07:26 UTC] PHP Stack trace:
+[28-Jan-2020 04:07:26 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:07:26 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:3
+[28-Jan-2020 04:07:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 6
+[28-Jan-2020 04:07:26 UTC] PHP Stack trace:
+[28-Jan-2020 04:07:26 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:07:26 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:6
+[28-Jan-2020 04:07:27 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 3
+[28-Jan-2020 04:07:27 UTC] PHP Stack trace:
+[28-Jan-2020 04:07:27 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:07:27 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:3
+[28-Jan-2020 04:07:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 6
+[28-Jan-2020 04:07:27 UTC] PHP Stack trace:
+[28-Jan-2020 04:07:27 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:07:27 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:6
+[28-Jan-2020 04:07:27 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 3
+[28-Jan-2020 04:07:27 UTC] PHP Stack trace:
+[28-Jan-2020 04:07:27 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:07:27 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:3
+[28-Jan-2020 04:07:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 6
+[28-Jan-2020 04:07:27 UTC] PHP Stack trace:
+[28-Jan-2020 04:07:27 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:07:27 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:6
+[28-Jan-2020 04:08:38 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 3
+[28-Jan-2020 04:08:38 UTC] PHP Stack trace:
+[28-Jan-2020 04:08:38 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:08:38 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:3
+[28-Jan-2020 04:08:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 6
+[28-Jan-2020 04:08:38 UTC] PHP Stack trace:
+[28-Jan-2020 04:08:38 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:08:38 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:6
+[28-Jan-2020 04:08:53 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/login.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/login.php on line 4
+[28-Jan-2020 04:08:53 UTC] PHP Stack trace:
+[28-Jan-2020 04:08:53 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/login.php:0
+[28-Jan-2020 04:08:53 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/login.php:4
+[28-Jan-2020 04:08:58 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/login.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/login.php on line 4
+[28-Jan-2020 04:08:58 UTC] PHP Stack trace:
+[28-Jan-2020 04:08:58 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/login.php:0
+[28-Jan-2020 04:08:58 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/login.php:4
+[28-Jan-2020 04:09:06 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 3
+[28-Jan-2020 04:09:06 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:06 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:06 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:3
+[28-Jan-2020 04:09:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 6
+[28-Jan-2020 04:09:06 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:06 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:06 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:6
+[28-Jan-2020 04:09:13 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 3
+[28-Jan-2020 04:09:13 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:13 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:13 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:3
+[28-Jan-2020 04:09:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 6
+[28-Jan-2020 04:09:13 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:13 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:13 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:6
+[28-Jan-2020 04:09:13 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 3
+[28-Jan-2020 04:09:13 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:13 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:13 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:3
+[28-Jan-2020 04:09:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 6
+[28-Jan-2020 04:09:13 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:13 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:13 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:6
+[28-Jan-2020 04:09:13 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 3
+[28-Jan-2020 04:09:13 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:13 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:13 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:3
+[28-Jan-2020 04:09:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 6
+[28-Jan-2020 04:09:13 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:13 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:13 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:6
+[28-Jan-2020 04:09:14 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 3
+[28-Jan-2020 04:09:14 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:14 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:14 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:3
+[28-Jan-2020 04:09:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 6
+[28-Jan-2020 04:09:14 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:14 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:14 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:6
+[28-Jan-2020 04:09:14 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 3
+[28-Jan-2020 04:09:14 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:14 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:14 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:3
+[28-Jan-2020 04:09:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 6
+[28-Jan-2020 04:09:14 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:14 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:14 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:6
+[28-Jan-2020 04:09:14 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 3
+[28-Jan-2020 04:09:14 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:14 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:14 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:3
+[28-Jan-2020 04:09:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 6
+[28-Jan-2020 04:09:14 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:14 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:14 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:6
+[28-Jan-2020 04:09:14 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 3
+[28-Jan-2020 04:09:14 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:14 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:14 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:3
+[28-Jan-2020 04:09:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 6
+[28-Jan-2020 04:09:14 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:14 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:14 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:6
+[28-Jan-2020 04:09:15 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 3
+[28-Jan-2020 04:09:15 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:15 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:15 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:3
+[28-Jan-2020 04:09:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 6
+[28-Jan-2020 04:09:15 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:15 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:15 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:6
+[28-Jan-2020 04:09:15 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 3
+[28-Jan-2020 04:09:15 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:15 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:15 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:3
+[28-Jan-2020 04:09:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 6
+[28-Jan-2020 04:09:15 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:15 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:15 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:6
+[28-Jan-2020 04:09:15 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 3
+[28-Jan-2020 04:09:15 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:15 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:15 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:3
+[28-Jan-2020 04:09:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 6
+[28-Jan-2020 04:09:15 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:15 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:15 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:6
+[28-Jan-2020 04:09:16 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 3
+[28-Jan-2020 04:09:16 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:16 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:16 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:3
+[28-Jan-2020 04:09:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 6
+[28-Jan-2020 04:09:16 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:16 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:16 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:6
+[28-Jan-2020 04:09:16 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 3
+[28-Jan-2020 04:09:16 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:16 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:16 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:3
+[28-Jan-2020 04:09:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 6
+[28-Jan-2020 04:09:16 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:16 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:16 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:6
+[28-Jan-2020 04:09:17 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 3
+[28-Jan-2020 04:09:17 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:17 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:17 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:3
+[28-Jan-2020 04:09:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 6
+[28-Jan-2020 04:09:17 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:17 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:17 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:6
+[28-Jan-2020 04:09:18 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 3
+[28-Jan-2020 04:09:18 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:18 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:18 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:3
+[28-Jan-2020 04:09:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 6
+[28-Jan-2020 04:09:18 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:18 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:18 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:6
+[28-Jan-2020 04:09:18 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 3
+[28-Jan-2020 04:09:18 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:18 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:18 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:3
+[28-Jan-2020 04:09:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 6
+[28-Jan-2020 04:09:18 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:18 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:18 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:6
+[28-Jan-2020 04:09:18 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 3
+[28-Jan-2020 04:09:18 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:18 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:18 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:3
+[28-Jan-2020 04:09:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 6
+[28-Jan-2020 04:09:18 UTC] PHP Stack trace:
+[28-Jan-2020 04:09:18 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 04:09:18 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:6
+[28-Jan-2020 17:59:00 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/login.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/login.php on line 4
+[28-Jan-2020 17:59:00 UTC] PHP Stack trace:
+[28-Jan-2020 17:59:00 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/login.php:0
+[28-Jan-2020 17:59:00 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/login.php:4
+[28-Jan-2020 17:59:32 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/login.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/login.php on line 4
+[28-Jan-2020 17:59:32 UTC] PHP Stack trace:
+[28-Jan-2020 17:59:32 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/login.php:0
+[28-Jan-2020 17:59:32 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/login.php:4
+[28-Jan-2020 18:00:47 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/login.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/login.php on line 4
+[28-Jan-2020 18:00:47 UTC] PHP Stack trace:
+[28-Jan-2020 18:00:47 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/login.php:0
+[28-Jan-2020 18:00:47 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/login.php:4
+[28-Jan-2020 18:01:55 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/login.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/login.php on line 4
+[28-Jan-2020 18:01:55 UTC] PHP Stack trace:
+[28-Jan-2020 18:01:55 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/login.php:0
+[28-Jan-2020 18:01:55 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/login.php:4
+[28-Jan-2020 18:03:25 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/login.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/login.php on line 4
+[28-Jan-2020 18:03:25 UTC] PHP Stack trace:
+[28-Jan-2020 18:03:25 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/login.php:0
+[28-Jan-2020 18:03:25 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/login.php:4
+[28-Jan-2020 18:07:20 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 3
+[28-Jan-2020 18:07:20 UTC] PHP Stack trace:
+[28-Jan-2020 18:07:20 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 18:07:20 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:3
+[28-Jan-2020 18:07:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/logout.php on line 6
+[28-Jan-2020 18:07:20 UTC] PHP Stack trace:
+[28-Jan-2020 18:07:20 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:0
+[28-Jan-2020 18:07:20 UTC] PHP   2. header() /home/fedebypc/fastlunch.fedebyp.com/process/logout.php:6
+[28-Jan-2020 18:08:32 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/login.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/login.php on line 4
+[28-Jan-2020 18:08:32 UTC] PHP Stack trace:
+[28-Jan-2020 18:08:32 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/login.php:0
+[28-Jan-2020 18:08:32 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/login.php:4
+[28-Jan-2020 18:08:38 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/login.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/login.php on line 4
+[28-Jan-2020 18:08:38 UTC] PHP Stack trace:
+[28-Jan-2020 18:08:38 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/login.php:0
+[28-Jan-2020 18:08:38 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/login.php:4
+[28-Jan-2020 18:10:16 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/login.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/login.php on line 4
+[28-Jan-2020 18:10:16 UTC] PHP Stack trace:
+[28-Jan-2020 18:10:16 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/login.php:0
+[28-Jan-2020 18:10:16 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/login.php:4
+[28-Jan-2020 18:10:32 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/login.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/login.php on line 4
+[28-Jan-2020 18:10:32 UTC] PHP Stack trace:
+[28-Jan-2020 18:10:32 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/login.php:0
+[28-Jan-2020 18:10:32 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/login.php:4
+[28-Jan-2020 18:10:40 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/login.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/login.php on line 4
+[28-Jan-2020 18:10:40 UTC] PHP Stack trace:
+[28-Jan-2020 18:10:40 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/login.php:0
+[28-Jan-2020 18:10:40 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/login.php:4
+[28-Jan-2020 21:04:40 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php on line 5
+[28-Jan-2020 21:04:40 UTC] PHP Stack trace:
+[28-Jan-2020 21:04:40 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php:0
+[28-Jan-2020 21:04:40 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php:5
+[28-Jan-2020 22:26:36 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php on line 5
+[28-Jan-2020 22:26:36 UTC] PHP Stack trace:
+[28-Jan-2020 22:26:36 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php:0
+[28-Jan-2020 22:26:36 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php:5
+[28-Jan-2020 22:26:45 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php on line 5
+[28-Jan-2020 22:26:45 UTC] PHP Stack trace:
+[28-Jan-2020 22:26:45 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php:0
+[28-Jan-2020 22:26:45 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php:5
+[28-Jan-2020 22:26:52 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php on line 5
+[28-Jan-2020 22:26:52 UTC] PHP Stack trace:
+[28-Jan-2020 22:26:52 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php:0
+[28-Jan-2020 22:26:52 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php:5
+[28-Jan-2020 22:26:58 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php on line 5
+[28-Jan-2020 22:26:58 UTC] PHP Stack trace:
+[28-Jan-2020 22:26:58 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php:0
+[28-Jan-2020 22:26:58 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php:5
+[28-Jan-2020 22:27:29 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/login.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/login.php on line 4
+[28-Jan-2020 22:27:29 UTC] PHP Stack trace:
+[28-Jan-2020 22:27:29 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/login.php:0
+[28-Jan-2020 22:27:29 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/login.php:4
+[28-Jan-2020 22:28:04 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php:1) in /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php on line 5
+[28-Jan-2020 22:28:04 UTC] PHP Stack trace:
+[28-Jan-2020 22:28:04 UTC] PHP   1. {main}() /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php:0
+[28-Jan-2020 22:28:04 UTC] PHP   2. session_start() /home/fedebypc/fastlunch.fedebyp.com/process/confirmcompra.php:5
